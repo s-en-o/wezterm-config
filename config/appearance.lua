@@ -10,8 +10,8 @@ return {
    webgpu_preferred_adapter = gpu_adapters:pick_best(),
 
    -- color scheme
-   colors = colors,
-
+   -- colors = colors,
+   color_scheme = 'Kanagawa Dragon (Gogh)',
    -- background
    background = {
       {
@@ -44,13 +44,13 @@ return {
       left = 0,
       right = 0,
       top = 10,
-      bottom = 7.5,
+      bottom = 6,
    },
    window_close_confirmation = 'NeverPrompt',
    window_frame = {
       active_titlebar_bg = '#090909',
       -- font = fonts.font,
-      -- font_size = fonts.font_size,
+      -- font_size = 16.0, -- Check appearance/fonts.lua
    },
    inactive_pane_hsb = {
       saturation = 0.9,
