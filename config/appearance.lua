@@ -10,8 +10,8 @@ return {
    webgpu_preferred_adapter = gpu_adapters:pick_best(),
 
    -- color scheme
-   -- colors = colors,
-   color_scheme = 'Kanagawa Dragon (Gogh)',
+   colors = colors,
+   --color_scheme = 'Kanagawa Dragon (Gogh)',
    -- background
    background = {
       {
@@ -33,7 +33,7 @@ return {
 
    -- tab bar
    enable_tab_bar = true,
-   hide_tab_bar_if_only_one_tab = false,
+   hide_tab_bar_if_only_one_tab = true,
    use_fancy_tab_bar = false,
    tab_max_width = 25,
    show_tab_index_in_tab_bar = false,
@@ -43,8 +43,8 @@ return {
    window_padding = {
       left = 0,
       right = 0,
-      top = 10,
-      bottom = 6,
+      top = 0,
+      bottom = 0,
    },
    window_close_confirmation = 'NeverPrompt',
    window_frame = {

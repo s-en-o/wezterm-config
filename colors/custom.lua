@@ -28,9 +28,16 @@ local mocha = {
    crust = '#11111b',
 }
 
+local kanagawa = {
+   base = '#16161D',
+   surface0 = '#49443C',
+   surface2 = '#E6C384',
+   text = '#E6C384',
+}
+
 local colorscheme = {
-   foreground = mocha.text,
-   background = mocha.base,
+   foreground = kanagawa.text,
+   background = kanagawa.base,
    cursor_bg = mocha.rosewater,
    cursor_border = mocha.rosewater,
    cursor_fg = mocha.crust,
@@ -59,19 +66,19 @@ local colorscheme = {
    tab_bar = {
       background = 'rgba(0, 0, 0, 0.4)',
       active_tab = {
-         bg_color = mocha.surface2,
-         fg_color = mocha.text,
+         bg_color = kanagawa.surface2,
+         fg_color = kanagawa.text,
       },
       inactive_tab = {
-         bg_color = mocha.surface0,
+         bg_color = kanagawa.surface0,
          fg_color = mocha.subtext1,
       },
       inactive_tab_hover = {
-         bg_color = mocha.surface0,
+         bg_color = kanagawa.surface0,
          fg_color = mocha.text,
       },
       new_tab = {
-         bg_color = mocha.base,
+         bg_color = kanagawa.base,
          fg_color = mocha.text,
       },
       new_tab_hover = {
