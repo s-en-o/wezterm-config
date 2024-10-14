@@ -11,7 +11,7 @@ return {
 
    -- color scheme
    colors = colors,
-   --color_scheme = 'Kanagawa Dragon (Gogh)',
+   color_scheme = 'Kanagawa Dragon (Gogh)',
    -- background
    background = {
       {

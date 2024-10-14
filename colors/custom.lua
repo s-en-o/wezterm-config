@@ -87,12 +87,12 @@ local colorscheme = {
          italic = true,
       },
    },
-   visual_bell = mocha.surface0,
+   visual_bell = kanagawa.surface0,
    indexed = {
       [16] = mocha.peach,
       [17] = mocha.rosewater,
    },
-   scrollbar_thumb = mocha.surface2,
+   scrollbar_thumb = kanagawa.surface2,
    split = mocha.overlay0,
    compose_cursor = mocha.flamingo,
 }
