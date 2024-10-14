@@ -42,7 +42,7 @@ local colorscheme = {
    cursor_border = mocha.rosewater,
    cursor_fg = mocha.crust,
    selection_bg = mocha.surface2,
-   selection_fg = mocha.text,
+   selection_fg = kanagawa.text,
    ansi = {
       '#0C0C0C', -- black
       '#C50F1F', -- red
@@ -75,15 +75,15 @@ local colorscheme = {
       },
       inactive_tab_hover = {
          bg_color = kanagawa.surface0,
-         fg_color = mocha.text,
+         fg_color = kanagawa.text,
       },
       new_tab = {
          bg_color = kanagawa.base,
-         fg_color = mocha.text,
+         fg_color = kanagawa.text,
       },
       new_tab_hover = {
          bg_color = mocha.mantle,
-         fg_color = mocha.text,
+         fg_color = kanagawa.text,
          italic = true,
       },
    },
